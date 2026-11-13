@@ -30,8 +30,7 @@ Mam dostępne płytki PCB do tego projektu. Jeśli wolisz wykonać moduł samodz
 ## English
 
 This interface connects a physical Morse key to an iPhone running the MorseOSLAB app for iOS. Use your own key to practise sending Morse code and see what the app decodes.
-
-PCBs for this project are available from me. You can also build the interface yourself at low cost using the schematic, manufacturing files and ready-to-flash firmware in this repository. Once you have the parts ready, assembly takes just a few minutes.
+You can build the interface yourself at low cost using the schematic, manufacturing files and ready-to-flash firmware in this repository. Once you have the parts ready, assembly takes just a few minutes.
 
 | File | Contents |
 | --- | --- |
@@ -52,7 +51,7 @@ PCBs for this project are available from me. You can also build the interface yo
 
 Mit diesem Interface kannst du eine Morsetaste an ein iPhone mit der iOS-App MorseOSLAB anschließen. Damit kannst du das Geben von Morsezeichen mit deiner eigenen Taste üben und sehen, welche Zeichen die App dekodiert.
 
-Platinen für dieses Projekt sind bei mir erhältlich. Du kannst das Interface auch mit geringem Kostenaufwand selbst bauen. Schaltplan, Fertigungsdateien und die fertige Firmware findest du in diesem Repository. Wenn alle Bauteile bereitliegen, dauert der Zusammenbau nur wenige Minuten.
+Du kannst das Interface mit geringem Kostenaufwand selbst bauen. Schaltplan, Fertigungsdateien und die fertige Firmware findest du in diesem Repository. Wenn alle Bauteile bereitliegen, dauert der Zusammenbau nur wenige Minuten.
 
 | Datei | Inhalt |
 | --- | --- |
