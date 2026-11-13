@@ -1,4 +1,4 @@
-# Interfejs klucza telegraficznego do MorseOSLAB
+# MorseOSLAB Interface
 
 [Polski](#polski) · [English](#english) · [Deutsch](#deutsch)
 
