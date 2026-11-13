@@ -1,7 +1,6 @@
 # MorseOSLAB Interface
 
-![Schemat interfejsu MorseOSLAB](MorseOSLAB-sch_V1_small.png)
-
+<img src="MorseOSLAB-sch_V1.jpg" alt="Zdjęcie zmontowanego modułu" width="360">
 
 [Polski](#polski) · [English](#english) · [Deutsch](#deutsch)
 
