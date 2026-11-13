@@ -1,5 +1,8 @@
 # MorseOSLAB Interface
 
+![Schemat interfejsu MorseOSLAB](MorseOSLAB-sch_V1_small.png)
+
+
 [Polski](#polski) · [English](#english) · [Deutsch](#deutsch)
 
 ## Polski
