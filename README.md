@@ -6,7 +6,7 @@
 
 ## Polski
 
-Możesz użyć dowolnej płytki z RP2040, która udostępnia piny **GPIO 4 i GPIO 5** i pozwala wgrać firmware **UF2** przez USB w trybie **BOOTSEL**.
+Możesz użyć dowolnej płytki z RP2040, która udostępnia piny **GPIO 4 i GPIO 5** i pozwala wgrać firmware **UF2** przez USB w trybie **BOOTSEL**. Płytka musi mieć port USB z obsługą transmisji danych, potrzebny zarówno do wgrania firmware’u, jak i do połączenia z iPhonem. Sam port szeregowy (UART/RS) nie wystarczy.
 
 Moduł pozwala podłączyć fizyczny klucz telegraficzny do iPhone’a z aplikacją MorseOSLAB na iOS. Dzięki temu możesz ćwiczyć nadawanie alfabetem Morse’a na własnym kluczu, korzystając z ćwiczeń i dekodowania w aplikacji.
 
@@ -31,7 +31,7 @@ Mam dostępne płytki PCB do tego projektu. Jeśli wolisz wykonać moduł samodz
 
 ## English
 
-You can use any RP2040 board that exposes **GPIO 4 and GPIO 5** and supports flashing **UF2** firmware over USB in **BOOTSEL** mode.
+You can use any RP2040 board that exposes **GPIO 4 and GPIO 5** and supports flashing **UF2** firmware over USB in **BOOTSEL** mode. The board needs a USB port that supports data transfer for both flashing the firmware and connecting to the iPhone. A serial port (UART/RS) alone is insufficient.
 
 This interface connects a physical Morse key to an iPhone running the MorseOSLAB app for iOS. Use your own key to practise sending Morse code and see what the app decodes.
 
@@ -54,7 +54,7 @@ You can build the interface yourself at low cost using the schematic, manufactur
 
 ## Deutsch
 
-Du kannst jede RP2040-Platine verwenden, bei der **GPIO 4 und GPIO 5** zugänglich sind und sich die **UF2**-Firmware im **BOOTSEL**-Modus per USB aufspielen lässt.
+Du kannst jede RP2040-Platine verwenden, bei der **GPIO 4 und GPIO 5** zugänglich sind und sich die **UF2**-Firmware im **BOOTSEL**-Modus per USB aufspielen lässt. Die Platine benötigt einen USB-Anschluss mit Datenübertragung, sowohl zum Aufspielen der Firmware als auch zur Verbindung mit dem iPhone. Eine serielle Schnittstelle (UART/RS) allein reicht dafür nicht aus.
 
 Mit diesem Interface kannst du eine Morsetaste an ein iPhone mit der iOS-App MorseOSLAB anschließen. Damit kannst du das Geben von Morsezeichen mit deiner eigenen Taste üben und sehen, welche Zeichen die App dekodiert.
 
