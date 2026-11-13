@@ -1,6 +1,6 @@
 # MorseOSLAB Interface
 
-<img src="MorseOSLAB-sch_V1.jpg" alt="Zdjęcie zmontowanego modułu" width="360">
+<img src="MorseOSLAB-sch_V1.png" alt="Zdjęcie zmontowanego modułu" width="360">
 
 [Polski](#polski) · [English](#english) · [Deutsch](#deutsch)
 
