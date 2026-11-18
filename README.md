@@ -27,6 +27,15 @@ Mam dostępne płytki PCB do tego projektu. Jeśli wolisz wykonać moduł samodz
 | [code.py](code.py) | Program odczytujący styki klucza i wysyłający zdarzenia MIDI. |
 | [modul1.jpg](modul1.jpg), [modul2.jpg](modul2.jpg), [modul3.jpg](modul3.jpg), [modul4.jpg](modul4.jpg), [modul5.jpg](modul5.jpg) | Zdjęcia modułu. |
 
+### Obudowa do druku 3D
+
+![Zdjęcie obudowy](case.jpg)
+
+Obudowę tworzą dwie części do wydrukowania.
+
+- [MorseOSLAB-case-1.stl](MorseOSLAB-case-1.stl)
+- [MorseOSLAB-case-2.stl](MorseOSLAB-case-2.stl)
+
 ## Montaż i uruchomienie
 
 1. Przygotuj elementy i połącz je zgodnie ze schematem. Jeśli zamawiasz PCB, użyj plików produkcyjnych z archiwum ZIP.
@@ -60,6 +69,15 @@ You can build the interface yourself at low cost using the schematic, manufactur
 | [code.py](code.py) | Reads the key contacts and sends MIDI events. |
 | [modul1.jpg](modul1.jpg), [modul2.jpg](modul2.jpg), [modul3.jpg](modul3.jpg), [modul4.jpg](modul4.jpg), [modul5.jpg](modul5.jpg) | Photos of the module. |
 
+### 3D-printable enclosure
+
+![Enclosure photo](case.jpg)
+
+Print both parts of the enclosure.
+
+- [MorseOSLAB-case-1.stl](MorseOSLAB-case-1.stl)
+- [MorseOSLAB-case-2.stl](MorseOSLAB-case-2.stl)
+
 ### Assembly and setup
 
 1. Gather the parts and connect them as shown in the schematic. If ordering a PCB, use the manufacturing files from the ZIP archive.
@@ -92,6 +110,15 @@ Du kannst das Interface mit geringem Kostenaufwand selbst bauen. Schaltplan, Fer
 | [boot.py](boot.py) | Konfiguration der USB-Schnittstelle. |
 | [code.py](code.py) | Liest die Tastenkontakte ein und sendet MIDI-Ereignisse. |
 | [modul1.jpg](modul1.jpg), [modul2.jpg](modul2.jpg), [modul3.jpg](modul3.jpg), [modul4.jpg](modul4.jpg), [modul5.jpg](modul5.jpg) | Fotos des Moduls. |
+
+### Gehäuse für den 3D-Druck
+
+![Foto des Gehäuses](case.jpg)
+
+Das Gehäuse besteht aus zwei Druckteilen.
+
+- [MorseOSLAB-case-1.stl](MorseOSLAB-case-1.stl)
+- [MorseOSLAB-case-2.stl](MorseOSLAB-case-2.stl)
 
 ### Aufbau und Inbetriebnahme
 
