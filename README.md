@@ -1,6 +1,15 @@
 # MorseOSLAB Interface
 
-<img src="MorseOSLAB-sch_V1.png" alt="Schemat interfejsu MorseOSLAB" width="400">
+<p>
+  <a href="MorseOSLAB-sch_V1.png"><img src="MorseOSLAB-sch_V1.png" alt="MorseOSLAB V1 schematic" width="190"></a>
+  <a href="MorseOSLAB-board-V1.png"><img src="MorseOSLAB-board-V1.png" alt="MorseOSLAB V1 PCB" width="190"></a>
+  <a href="case.jpg"><img src="case.jpg" alt="MorseOSLAB enclosure" width="190"></a>
+  <a href="modul1.jpg"><img src="modul1.jpg" alt="MorseOSLAB module 1" width="190"></a>
+  <a href="modul2.jpg"><img src="modul2.jpg" alt="MorseOSLAB module 2" width="190"></a>
+  <a href="modul3.jpg"><img src="modul3.jpg" alt="MorseOSLAB module 3" width="190"></a>
+  <a href="modul4.jpg"><img src="modul4.jpg" alt="MorseOSLAB module 4" width="190"></a>
+  <a href="modul5.jpg"><img src="modul5.jpg" alt="MorseOSLAB module 5" width="190"></a>
+</p>
 
 [Polski](#polski) · [English](#english) · [Deutsch](#deutsch)
 
@@ -29,7 +38,7 @@ Mam dostępne płytki PCB do tego projektu. Jeśli wolisz wykonać moduł samodz
 
 ### Obudowa do druku 3D
 
-![Zdjęcie obudowy](case.jpg)
+[Zdjęcie obudowy](case.jpg)
 
 Obudowę tworzą dwie części do wydrukowania.
 
@@ -71,7 +80,7 @@ You can build the interface yourself at low cost using the schematic, manufactur
 
 ### 3D-printable enclosure
 
-![Enclosure photo](case.jpg)
+[Enclosure photo](case.jpg)
 
 Print both parts of the enclosure.
 
@@ -113,7 +122,7 @@ Du kannst das Interface mit geringem Kostenaufwand selbst bauen. Schaltplan, Fer
 
 ### Gehäuse für den 3D-Druck
 
-![Foto des Gehäuses](case.jpg)
+[Foto des Gehäuses](case.jpg)
 
 Das Gehäuse besteht aus zwei Druckteilen.
 
