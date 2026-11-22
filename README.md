@@ -52,6 +52,15 @@ Obudowę tworzą dwie części do wydrukowania.
 3. **RP2040.** Podłącz RP2040 do komputera przewodem USB, trzymając przycisk **BOOTSEL**. Skopiuj plik `circuitpython-pico-10.3.1.uf2` na dysk **RPI-RP2**. Płytka uruchomi się ponownie. Po ponownym uruchomieniu otwórz dysk **CIRCUITPY**, skopiuj `boot.py` i `code.py` do jego głównego katalogu, bezpiecznie wysuń dysk i odłącz oraz podłącz płytkę ponownie.
 4. Podłącz klucz do modułu, a moduł przewodem USB z transmisją danych do iPhone’a z MorseOSLAB. W aplikacji wybierz interfejs w **Settings → General → Key input** i uruchom ćwiczenie **Free keying**, żeby sprawdzić nadawanie.
 
+### Waveshare RP2040-Zero jako USB HID
+
+1. Pobierz i rozpakuj [VBAND-RP2040-Zero-HID.zip](VBAND-RP2040-Zero-HID.zip). Jeśli RP2040-Zero ma już zgodny CircuitPython i widzisz dysk **CIRCUITPY**, przejdź do kroku 3.
+2. Podłącz płytkę z wciśniętym **BOOTSEL** i skopiuj dołączony `CircuitPython-RP2040-Zero-10.3.2.uf2` na dysk **RPI-RP2**. Po restarcie otworzy się **CIRCUITPY**.
+3. Zrób kopię dotychczasowych `boot.py` i `code.py`. Skopiuj oba pliki Python **z archiwum HID** do głównego katalogu **CIRCUITPY**. Wysuń dysk, odłącz płytkę i podłącz ją ponownie. Zgłosi się jako klawiatura **VBAND RP2040**.
+4. Podłącz **Tip → GP5** (lewy Ctrl, kropka), **Ring → GP4** (prawy Ctrl, kreska), **Sleeve → GND**. Dla klucza sztorcowego wystarczy zwarcie GP5 do GND. W MorseOSLAB sprawdź oba kontakty w **Free Keying**. W Androidzie od wersji **1.9.185** klawisze Ctrl działają automatycznie. W **1.9.184** wybierz **Settings → Keying → VBAND keys → Left Ctrl / Right Ctrl**.
+
+Bez naciskania łopatek dioda błyska przez **15 ms co 250 ms**. Po naciśnięciu świeci ciągle: lewa niebiesko, prawa czerwono, obie fioletowo.
+
 ### Inny mikrokontroler jako źródło MIDI
 
 Możesz użyć innego mikrokontrolera, który zgłasza się do iPhone’a jako standardowe urządzenie **USB MIDI 1.0**. Wysyłaj komunikaty na **kanale 1**. W dostarczonym `code.py` **GP5 → nuta 69 (A4)**, a **GP4 → nuta 70 (A♯4/B♭4)**. Przy zwarciu styku do GND wyślij raz **Note On** z velocity **100**, a po zwolnieniu **Note Off** z velocity **0**. Aplikacja akceptuje też Note On z velocity 0 jako zwolnienie. Obsługuj oba styki niezależnie i eliminuj drgania styków. Wybierz urządzenie w **Settings → General → Key input**. Możesz dopasować numery nut dla obsługiwanego wejścia, jeśli aplikacja udostępnia dla niego ustawienia nut.
@@ -94,6 +103,15 @@ Print both parts of the enclosure.
 3. **RP2040.** Hold **BOOTSEL** while connecting the RP2040 to your computer over USB. Copy `circuitpython-pico-10.3.1.uf2` to the **RPI-RP2** drive. The board will restart. After the restart, open **CIRCUITPY**, copy `boot.py` and `code.py` to its root, safely eject the drive, then unplug and reconnect the board.
 4. Connect the Morse key to the module, then connect the module to your iPhone with a USB data cable. Select the interface in **Settings → General → Key input** and open **Free keying** to test sending.
 
+### Waveshare RP2040-Zero as a USB HID keyboard
+
+1. Download and extract [VBAND-RP2040-Zero-HID.zip](VBAND-RP2040-Zero-HID.zip). If the RP2040-Zero already runs compatible CircuitPython and the **CIRCUITPY** drive is visible, skip to step 3.
+2. Hold **BOOTSEL** while connecting the board and copy the included `CircuitPython-RP2040-Zero-10.3.2.uf2` to **RPI-RP2**. The **CIRCUITPY** drive appears after reboot.
+3. Back up your existing `boot.py` and `code.py`. Copy both Python files **from the HID archive** to the root of **CIRCUITPY**. Eject the drive, unplug the board, and reconnect it. It will appear as the **VBAND RP2040** keyboard.
+4. Wire **tip → GP5** (Left Ctrl, dit), **ring → GP4** (Right Ctrl, dah), and **sleeve → GND**. A straight key only needs GP5 and GND. Check both contacts in **Free Keying** in MorseOSLAB. On Android, **1.9.185** and later accept Ctrl automatically. In **1.9.184**, select **Settings → Keying → VBAND keys → Left Ctrl / Right Ctrl**.
+
+When idle, the LED flashes for **15 ms every 250 ms**. While held, the left paddle lights it blue, the right paddle red, and both together purple.
+
 ### Using another microcontroller as a MIDI source
 
 You can use another microcontroller that presents itself to the iPhone as a standard **USB MIDI 1.0** device. Send messages on **channel 1**. In the supplied `code.py`, **GP5 → note 69 (A4)** and **GP4 → note 70 (A♯4/B♭4)**. When a contact closes to GND, send one **Note On** with velocity **100**. On release, send **Note Off** with velocity **0**. The app also accepts a velocity-zero Note On as a release. Debounce each contact and handle both independently. Select the device under **Settings → General → Key input**. You can adjust note numbers for compatible inputs when the app shows note settings.
@@ -135,6 +153,15 @@ Das Gehäuse besteht aus zwei Druckteilen.
 2. **RP2350-Zero.** Halte BOOTSEL gedrückt, während du die Platine mit dem Computer verbindest. Kopiere `MorseOSLAB-RP2350-V1.uf2` auf das Laufwerk **RP2350**. Die Platine startet neu.
 3. **RP2040.** Halte **BOOTSEL** gedrückt, während du den RP2040 per USB an den Computer anschließt. Kopiere `circuitpython-pico-10.3.1.uf2` auf das Laufwerk **RPI-RP2**. Die Platine startet anschließend neu. Öffne nach dem Neustart das Laufwerk **CIRCUITPY** und kopiere `boot.py` und `code.py` in dessen Hauptverzeichnis. Wirf das Laufwerk sicher aus und schließe die Platine erneut an.
 4. Schließe die Morsetaste an das Modul an und verbinde das Modul per USB-Datenkabel mit deinem iPhone. Wähle das Interface unter **Settings → General → Key input** und teste das Geben in **Free keying**.
+
+### Waveshare RP2040-Zero als USB-HID-Tastatur
+
+1. Lade [VBAND-RP2040-Zero-HID.zip](VBAND-RP2040-Zero-HID.zip) herunter und entpacke das Archiv. Wenn auf dem RP2040-Zero bereits ein kompatibles CircuitPython läuft und **CIRCUITPY** sichtbar ist, fahre mit Schritt 3 fort.
+2. Halte beim Anschließen **BOOTSEL** gedrückt und kopiere die enthaltene Datei `CircuitPython-RP2040-Zero-10.3.2.uf2` auf **RPI-RP2**. Nach dem Neustart erscheint **CIRCUITPY**.
+3. Sichere die vorhandenen Dateien `boot.py` und `code.py`. Kopiere beide Python-Dateien **aus dem HID-Archiv** in das Hauptverzeichnis von **CIRCUITPY**. Wirf das Laufwerk aus und schließe die Platine erneut an. Sie meldet sich als Tastatur **VBAND RP2040** an.
+4. Verbinde **Tip → GP5** (linke Strg-Taste, Dit), **Ring → GP4** (rechte Strg-Taste, Dah) und **Sleeve → GND**. Für eine Handtaste genügen GP5 und GND. Prüfe beide Kontakte in **Free Keying** in MorseOSLAB. Unter Android werden die Strg-Tasten ab **1.9.185** automatisch erkannt. Wähle in **1.9.184** unter **Settings → Keying → VBAND keys** die Option **Left Ctrl / Right Ctrl**.
+
+Im Leerlauf blinkt die LED alle **250 ms für 15 ms**. Bei gedrückter linker Taste leuchtet sie blau, bei rechter rot und bei beiden violett.
 
 ### Anderen Mikrocontroller als MIDI-Quelle verwenden
 
